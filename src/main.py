@@ -14,9 +14,9 @@ def set_static_color(colors:dict):
 
 
 def set_breathe_color(colors:dict):
-    color1 = colors["colors"]["color0"][1:]
-    color2 = colors["colors"]["color5"][1:]
-    asusctl_command = f"asusctl led-mode breathe -C {color1} -c {color2}"
+    color1 = colors["colors"]["color3"][1:]
+    # color2 = colors["colors"]["color5"][1:]
+    asusctl_command = f"asusctl led-mode breathe -c {color1}" #-c {color2}"
     subprocess.run(asusctl_command.split(" "))
 
 
@@ -27,4 +27,4 @@ def set_strobe_color(colors:dict):
 
 
 
-set_strobe_color(colors)
+set_breathe_color(colors)
