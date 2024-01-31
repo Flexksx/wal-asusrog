@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: wal-asusctl
+Version: 0.1.0
+Summary: Control ASUS laptop LED modes using colors from wal.
+Home-page: https://github.com/Flexksx/wal-asusrog
+Author: Cretu Cristian
+Author-email: 
+License: GNU GPLv3
+License-File: LICENSE.txt
