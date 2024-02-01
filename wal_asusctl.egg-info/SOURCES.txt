@@ -1,8 +1,0 @@
-LICENSE.txt
-README.md
-setup.py
-wal_asusctl.egg-info/PKG-INFO
-wal_asusctl.egg-info/SOURCES.txt
-wal_asusctl.egg-info/dependency_links.txt
-wal_asusctl.egg-info/entry_points.txt
-wal_asusctl.egg-info/top_level.txt
