@@ -11,7 +11,8 @@ cd wal-asusrog
 export PATH=$PATH/usr/local/bin
 sudo mv rogwal.sh /usr/local/bin
 cd /usr/local/bin
-chmod +x rogwal.sh 
+chmod +x rogwal.sh
+cd
 ```
 # Usage
 Use ```./rogwal.sh help``` for help. There are currently 3 modes: ```static```, ```breathe``` and ```strobe```. Breathing mode has 3 speed modes ```low, med, high```.
